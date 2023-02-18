@@ -1,0 +1,15 @@
+POST http://localhost:8080/persons/create
+Content-Type: application/x-www-form-urlencoded
+
+login=abc2&email=abc@email.pl&firstName=Jan2&lastName=Kowalski2
+
+<> 2023-02-18T120429.404.html
+
+###
+
+GET http://localhost:8080/persons/get?id=5
+
+<> 2023-02-18T120428.404.html
+
+###
+
