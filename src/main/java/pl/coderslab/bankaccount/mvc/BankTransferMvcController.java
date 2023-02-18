@@ -1,6 +1,5 @@
 package pl.coderslab.bankaccount.mvc;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,8 +12,8 @@ import pl.coderslab.bankaccount.entity.BankTransfer;
 
 
 @Controller
-@RequestMapping("/views/transfers")
-@RequiredArgsConstructor
+@RequestMapping("/mvc/transfers")
+
 public class BankTransferMvcController {
     private final BankTransferDao bankTransferDao;
     public BankTransferMvcController(BankTransferDao bankTransferDao) {
@@ -36,7 +35,7 @@ public class BankTransferMvcController {
         bankTransfer.setTitle(title);
         bankTransfer.setSum(sum);
 
-        return "create-person-success";
+        return "create-transfer-success";
     }
 
 

@@ -4,7 +4,7 @@ GET http://localhost:8080/persons/get?id=5
 POST http://localhost:8080/persons/create
 Content-Type: application/x-www-form-urlencoded
 
-
+login=1234&password=123456&email=aswd@aswd.pl&firstName=Nick&lastName=Nowak
 
 ###
 POST http://localhost:8080/persons/delete

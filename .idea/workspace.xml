@@ -10,48 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c585785e-d299-41a8-878d-5fd4f45ba31f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/bankaccount.cUi5aQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/bankservice.-YQpJg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2023-02-18T120428.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2023-02-18T120429.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/controller/BankTransferController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/BankTransferDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/PersonDetailsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/BankTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/PersonDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/mvc/BankTransferMvcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/mvc/PersonMvcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/repository/BankTransferRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-person-success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-person.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-transfer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/http/bankTransfer.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/http/person.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-transfer-success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/controller/BankTransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/controller/BankTransferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/BankTransferDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/BankTransferDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/BankTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/BankTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/PersonDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/PersonDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/mvc/BankTransferMvcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/mvc/BankTransferMvcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/repository/BankTransferRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/http/bankTransfer.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/http/bankTransfer.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/http/person.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/http/person.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="HTTP Request" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -124,11 +97,20 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.5">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.71">
     <configuration name="All in person" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/http/person.http">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 10.1.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="bankTransfer | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/bankTransfer.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="person | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/person.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="person | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/person.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="bank-account:war exploded">
@@ -138,7 +120,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="666dc2c5-c20b-400d-8662-124988b82530" />
+        <option name="BASE_DIRECTORY_NAME" value="2f9edd00-e893-4692-82ec-42b593162006" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -146,7 +128,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56625" />
+        <option name="DEBUG_PORT" value="65208" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -215,8 +197,18 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.bankTransfer | #1" />
+      <item itemvalue="HTTP Request.person | #1" />
+      <item itemvalue="HTTP Request.person | #2" />
+      <item itemvalue="HTTP Request.All in person" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.71" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.bankTransfer | #1" />
+        <item itemvalue="HTTP Request.person | #2" />
+        <item itemvalue="HTTP Request.person | #1" />
         <item itemvalue="HTTP Request.All in person" />
       </list>
     </recent_temporary>
@@ -235,6 +227,7 @@
       <workItem from="1676670023007" duration="27911000" />
       <workItem from="1676721001351" duration="9000" />
       <workItem from="1676721300074" duration="17000" />
+      <workItem from="1676722007254" duration="14689000" />
     </task>
     <servers />
   </component>

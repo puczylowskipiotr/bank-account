@@ -1,3 +1,90 @@
+POST http://localhost:8080/transfers/create
+Content-Type: application/x-www-form-urlencoded
+
+address=Street&account=123456&title=Invoice12/345&sum=123&person=Jan&bankTransferIds=2
+
+<> 2023-02-18T224709.200.txt
+
+###
+
+POST http://localhost:8080/transfers/create
+Content-Type: application/x-www-form-urlencoded
+
+address=Street&account=123456&title=Invoice12/345&sum=123&person=Jan&bankTransferIds=2
+
+<> 2023-02-18T224644.200.txt
+
+###
+
+POST http://localhost:8080/transfers/create
+Content-Type: application/x-www-form-urlencoded
+
+address=Street&account=123456&title=Invoice12/345&sum=123&person=Jan
+
+<> 2023-02-18T224612.400.html
+
+###
+
+POST http://localhost:8080/persons/create
+Content-Type: application/x-www-form-urlencoded
+
+login=1234&password=123456&email=aswd@aswd.pl&firstName=Nick&lastName=Nowak
+
+<> 2023-02-18T224038.500.html
+
+###
+
+POST http://localhost:8080/transfers/create
+Content-Type: application/x-www-form-urlencoded
+
+address=Street&account=123456&title=Invoice12/345&sum=123&person=Jan
+
+<> 2023-02-18T224020.400.html
+
+###
+
+POST http://localhost:8080/transfers/create
+Content-Type: application/x-www-form-urlencoded
+
+address=Street&account=123456&title=Invoice12/345&sum=123&person=Jan
+
+<> 2023-02-18T223420.400.html
+
+###
+
+POST http://localhost:8080/persons/create
+Content-Type: application/x-www-form-urlencoded
+
+login=1234&password=123456&email=aswd@aswd.pl&firstName=Nick&lastName=Nowak
+
+<> 2023-02-18T222931.500.html
+
+###
+
+POST http://localhost:8080/persons/create
+Content-Type: application/x-www-form-urlencoded
+
+login=1234&password=123456&email=aswd@aswd.pl&firstName=Nick
+
+<> 2023-02-18T222841.400.html
+
+###
+
+POST http://localhost:8080/persons/create
+Content-Type: application/x-www-form-urlencoded
+
+login=1234&password=123456&email=aswd@aswd.pl
+
+<> 2023-02-18T222727.400.html
+
+###
+
+GET http://localhost:8080/persons/get?id=5
+
+<> 2023-02-18T222506.500.html
+
+###
+
 POST http://localhost:8080/persons/create
 Content-Type: application/x-www-form-urlencoded
 

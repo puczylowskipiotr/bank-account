@@ -6,10 +6,10 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "transfer")
+@Table(name = "transfers")
 @Getter
 @Setter
-@ToString
+
 @NoArgsConstructor
 @AllArgsConstructor
 public class BankTransfer {
@@ -23,6 +23,16 @@ public class BankTransfer {
     private String title;
     private String sum;
 
+    @Override
+    public String toString() {
+        return "BankTransfer{" +
+                "id=" + id +
+                ", address='" + address + '\'' +
+                ", account='" + account + '\'' +
+                ", title='" + title + '\'' +
+                ", sum='" + sum + '\'' +
+                '}';
+    }
 
     @ManyToOne
     private Person person;

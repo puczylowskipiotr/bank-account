@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Table(name = "persons_details")
 @Getter
 @Setter
-@ToString
+
 @NoArgsConstructor
 @AllArgsConstructor
 public class PersonDetails {
@@ -25,7 +25,17 @@ public class PersonDetails {
     @OneToOne(optional = false)
     private Person person;
 
-
+    @Override
+    public String toString() {
+        return "PersonDetails{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", streetNumber='" + streetNumber + '\'' +
+                ", street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 
     public Person getPerson() {
         return person;

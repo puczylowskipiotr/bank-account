@@ -11,10 +11,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import javax.validation.Validator;
 
 @Configuration
-@ComponentScan
+@ComponentScan(basePackages = "pl.coderslab")
 @EnableWebMvc
 @EnableTransactionManagement
-@EnableJpaRepositories
+@EnableJpaRepositories (basePackages = "pl.coderslab")
 public class AppConfig {
 
     @Bean

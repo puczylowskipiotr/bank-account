@@ -22,6 +22,19 @@
         <th>Sum</th>
         <th>person</th>
 
+    </tr>
+    <c:forEach items="${transfers}" var="transfers">
+        <tr>
+            <td>${bankTransfer.id}</td>
+            <td>${bankTransfer.address}</td>
+            <td>${bankTransfer.account}</td>
+            <td>${bankTransfer.title}</td>
+            <td>${bankTransfer.sum}</td>
+            <td></td>
+        </tr>
+    </c:forEach>
+</table>
+
 </table>
 </body>
 </html>

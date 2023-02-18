@@ -28,13 +28,22 @@ public class BankTransferDao {
         em.remove(em.contains(entity) ? entity : em.merge(entity));
     }
 
+    public BankTransfer findById(Long id) {
+        return em.find(BankTransfer.class, id);
+    }
 
     public List<BankTransfer> findAll() {
         TypedQuery<BankTransfer> query = em.createQuery("SELECT b FROM BankTransfer b", BankTransfer.class);
-        List<BankTransfer> results = query.getResultList();
-
-        return results;
+        return query.getResultList();
     }
+
+
+    //public List<BankTransfer> findAll() {
+        //TypedQuery<BankTransfer> query = em.createQuery("SELECT b FROM BankTransfer b", BankTransfer.class);
+        //List<BankTransfer> results = query.getResultList();
+
+        //return results;
+    //}
 
 
 }

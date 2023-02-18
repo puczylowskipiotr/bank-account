@@ -10,7 +10,7 @@ import java.util.List;
 @Table(name = "persons")
 @Getter
 @Setter
-@ToString
+
 @NoArgsConstructor
 @AllArgsConstructor
 public class Person {
@@ -33,6 +33,24 @@ public class Person {
 
     @OneToMany(mappedBy = "person")
     private List<BankTransfer> bankTransfers;
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
+    //public List<PersonDetails> getPersonDetails() {
+        //return (List<PersonDetails>) personDetails;
+    //}
+
+    //public void setPersonDetails(List<PersonDetails> personDetails) {
+        //this.personDetails = (PersonDetails) personDetails;
+    //}
 
 
 
