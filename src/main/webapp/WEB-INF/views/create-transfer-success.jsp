@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Transfer created</title>
 </head>
 <body>
+
+<div>id: ${bankTransfer.id}</div>
+<div>address: ${bankTransfer.address}</div>
+<div>account: ${bankTransfer.account}</div>
+<div>title: ${bankTransfer.title}</div>
+<div>sum: ${bankTransfer.sum.replaceAll('.', '*')}</div>
 
 </body>
 </html>

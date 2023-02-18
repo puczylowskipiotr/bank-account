@@ -9,22 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c585785e-d299-41a8-878d-5fd4f45ba31f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-transfer-success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17804a77-5f45-401c-b927-371edea343d8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/controller/BankTransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/controller/BankTransferController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/BankTransferDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/dao/BankTransferDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/BankTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/BankTransfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/PersonDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/entity/PersonDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/mvc/BankTransferMvcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/mvc/BankTransferMvcController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/bankaccount/repository/BankTransferRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/http/bankTransfer.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/http/bankTransfer.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/http/person.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/http/person.http" afterDir="false" />
+    <list default="true" id="c585785e-d299-41a8-878d-5fd4f45ba31f" name="Changes" comment="Poprawki,dodanie 5 widoku, ale nadal nie znalazłem rozwiązania problemu z wyświetlaniem w przeglądarce">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-transfer-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create-transfer-success.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +214,16 @@
       <workItem from="1676721001351" duration="9000" />
       <workItem from="1676721300074" duration="17000" />
       <workItem from="1676722007254" duration="14689000" />
+      <workItem from="1676760235523" duration="1382000" />
     </task>
+    <task id="LOCAL-00001" summary="Poprawki,dodanie 5 widoku, ale nadal nie znalazłem rozwiązania problemu z wyświetlaniem w przeglądarce">
+      <created>1676760364132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676760364132</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +239,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Poprawki,dodanie 5 widoku, ale nadal nie znalazłem rozwiązania problemu z wyświetlaniem w przeglądarce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawki,dodanie 5 widoku, ale nadal nie znalazłem rozwiązania problemu z wyświetlaniem w przeglądarce" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
