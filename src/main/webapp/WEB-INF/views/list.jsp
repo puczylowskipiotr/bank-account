@@ -23,18 +23,21 @@
         <th>person</th>
 
     </tr>
-    <c:forEach items="${transfers}" var="transfers">
+    <c:forEach items="${bankTransfer}" var="transfer">
         <tr>
             <td>${bankTransfer.id}</td>
             <td>${bankTransfer.address}</td>
             <td>${bankTransfer.account}</td>
             <td>${bankTransfer.title}</td>
             <td>${bankTransfer.sum}</td>
-            <td></td>
+            <td>
+                <a href="<c:out value='/views/transfer/update?id=${bankTransfer.id}'/>">Update</a>
+                    <input type="hidden" name="id" value="${bankTransfer.id}">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
         </tr>
     </c:forEach>
-</table>
-
 </table>
 </body>
 </html>

@@ -18,7 +18,7 @@ public class PersonController {
         this.personDetailsDao = personDetailsDao;
     }
 
-    @GetMapping("/get")
+    @GetMapping("/persons/get")
     public String get(@RequestParam Long id) {
         Person person = personDao.findById(id);
         return person.toString();
