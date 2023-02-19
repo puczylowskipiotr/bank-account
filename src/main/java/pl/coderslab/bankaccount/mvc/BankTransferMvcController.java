@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import pl.coderslab.bankaccount.dao.BankTransferDao;
 import pl.coderslab.bankaccount.entity.BankTransfer;
@@ -12,7 +11,7 @@ import pl.coderslab.bankaccount.entity.BankTransfer;
 
 
 @Controller
-@RequestMapping("/mvc/transfers")
+//@RequestMapping("/mvc/transfers")
 
 public class BankTransferMvcController {
     private final BankTransferDao bankTransferDao;
@@ -21,13 +20,13 @@ public class BankTransferMvcController {
     }
 
 
-    @GetMapping("/create")
+    @GetMapping("/mvc/transfer/create")
     public String prepareCreateView() {
         return "/create-transfer";
     }
 
 
-    @PostMapping("/create")
+    @PostMapping("/mvc/transfer/create")
     public String processCreateRequest(@RequestParam String address, @RequestParam String account, @RequestParam String title, @RequestParam String sum, Model model) {
         BankTransfer bankTransfer = new BankTransfer();
         bankTransfer.setAddress(address);
@@ -35,6 +34,8 @@ public class BankTransferMvcController {
         bankTransfer.setTitle(title);
         bankTransfer.setSum(sum);
 
+        bankTransferDao.save(bankTransfer);
+        model.addAttribute("bankTransfer", bankTransfer);
         return "create-transfer-success";
     }
 
