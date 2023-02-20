@@ -20,7 +20,7 @@
         <th>Account</th>
         <th>Title</th>
         <th>Sum</th>
-        <th>person</th>
+
 
     </tr>
     <c:forEach items="${bankTransfer}" var="transfer">

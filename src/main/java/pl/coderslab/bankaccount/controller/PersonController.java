@@ -7,7 +7,7 @@ import pl.coderslab.bankaccount.entity.Person;
 import pl.coderslab.bankaccount.entity.PersonDetails;
 
 @RestController
-@RequestMapping("/persons")
+//@RequestMapping("/persons")
 public class PersonController {
 
     private final PersonDao personDao;
@@ -24,7 +24,7 @@ public class PersonController {
         return person.toString();
     }
 
-    @PostMapping("/create")
+    @PostMapping("/persons/create")
     public String create(@RequestParam String login, @RequestParam String firstName, @RequestParam String lastName) {
         Person person = new Person();
         person.setLogin(login);
@@ -38,7 +38,7 @@ public class PersonController {
         return person.toString();
     }
 
-    @PostMapping("/update")
+    @PostMapping("/persons/update")
     public String update(@RequestParam Long id, @RequestParam String email, @RequestParam String firstName) {
         Person person = personDao.findById(id);
         person.setEmail(email);
@@ -48,7 +48,7 @@ public class PersonController {
         return person.toString();
     }
 
-    @PostMapping("/delete")
+    @PostMapping("/persons/delete")
     public String delete(@RequestParam Long id) {
         Person person = personDao.findById(id);
         personDetailsDao.delete(person.getPersonDetails());

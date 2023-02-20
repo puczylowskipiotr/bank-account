@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/transfers")
+//@RequestMapping("/transfers")
 public class BankTransferController {
 
     private final BankTransferDao bankTransferDao;
@@ -24,7 +24,7 @@ public class BankTransferController {
 
        }
 
-    @GetMapping("/findAll")
+    @GetMapping("/transfers/findAll")
     public String findAll() {
         List<BankTransfer> bankTransfers = bankTransferDao.findAll();
         return bankTransfers.stream()
@@ -32,14 +32,14 @@ public class BankTransferController {
                 .collect(Collectors.joining("\n"));
     }
 
-    @GetMapping("/get")
+    @GetMapping("/transfers/get")
     public String get(@RequestParam Long id) {
         BankTransfer bankTransfer = bankTransferDao.findById(id);
         return bankTransfer.toString();
     }
 
 
-    @PostMapping("/create")
+    @PostMapping("/transfers/create")
     public String create(@RequestParam String address, @RequestParam String account, @RequestParam String title, @RequestParam String sum, @RequestParam Long[] bankTransferIds) {
         Person person = new Person();
         person.setLogin("Person_" + Instant.now());
@@ -54,7 +54,7 @@ public class BankTransferController {
         return bankTransfer.toString();
     }
 
-    @PostMapping("/update")
+    @PostMapping("/transfers/update")
     public String update(@RequestParam Long id, @RequestParam String address, @RequestParam String account, @RequestParam String title, @RequestParam String sum) {
         BankTransfer bankTransfer = bankTransferDao.findById(id);
         bankTransfer.setAddress(address);
@@ -65,7 +65,7 @@ public class BankTransferController {
         return bankTransfer.toString();
     }
 
-    @PostMapping("/delete")
+    @PostMapping("/transfers/delete")
     public String delete(@RequestParam Long id) {
         BankTransfer bankTransfer = bankTransferDao.findById(id);
         bankTransferDao.delete(bankTransfer);
